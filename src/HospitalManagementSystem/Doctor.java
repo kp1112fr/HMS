@@ -13,6 +13,7 @@ public class Doctor {
         this.connection = connection;
     }
 
+    // List doctors
     public void viewDoctors(){
         String query = "select * from doctors";
         try{
